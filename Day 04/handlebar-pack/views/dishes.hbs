@@ -1,0 +1,14 @@
+<body>
+    <form>
+        {{#each dishes}}
+        <div className="form-group">
+            <label>{{@key}}</label>
+            <input type="text" className="form-control" placeholder={{name}}/>
+        </div>
+        <div className="form-group">
+            <label>{{@name}}</label>
+            <input type="text" className="form-control" placeholder={{name}}/>
+        </div> 
+        {{/each}}               
+    </form>
+</body>

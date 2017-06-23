@@ -1,0 +1,14 @@
+{
+  "name": "init-package",
+  "version": "1.0.0",
+  "description": "Initial package",
+  "main": "solveRectangle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Raphael Fuentes",
+  "license": "ISC",
+  "dependencies": {
+    "yargs": "^8.0.2"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "coremodules",
+  "version": "1.0.0",
+  "description": "test core modules",
+  "main": "core.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Raphael Fuentes",
+  "license": "ISC",
+  "dependencies": {
+    "underscore": "^1.8.3"
+  }
+}

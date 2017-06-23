@@ -1,0 +1,21 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+    nav.navbar.navbar-inverse.bg-primary
+      button.navbar-toggler.navbar-toggler-right(type='button', data-toggle='collapse', data-target='#navbarNavDropdown', aria-controls='navbarNavDropdown', aria-expanded='false', aria-label='Toggle navigation')
+        span.navbar-toggler-icon
+      |   
+      a.navbar-brand(href='#') Accenture Cafeteria
+      |   
+      #navbarNavDropdown.collapse.navbar-collapse
+        ul.navbar-nav
+          li.nav-item
+            a.nav-link(href='/dishes') Dishes
+          |       
+          li.nav-item
+            a.nav-link(href='/leaders') Leaders
+          |       
+          li.nav-item
+            a.nav-link(href='/promotions') Promotions

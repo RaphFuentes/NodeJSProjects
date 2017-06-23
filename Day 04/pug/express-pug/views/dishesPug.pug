@@ -1,0 +1,47 @@
+extends layout
+block content
+    nav.navbar.navbar-inverse.bg-primary
+      button.navbar-toggler.navbar-toggler-right(type='button', data-toggle='collapse', data-target='#navbarNavDropdown', aria-controls='navbarNavDropdown', aria-expanded='false', aria-label='Toggle navigation')
+        span.navbar-toggler-icon
+      |   
+      a.navbar-brand(href='#') Accenture Cafeteria
+      |   
+      #navbarNavDropdown.expand.navbar-collapse
+        ul.navbar-nav
+          li.nav-item.active
+            a.nav-link(href='/dishes') Dishes
+          |       
+          li.nav-item
+            a.nav-link(href='/leaders') Leaders
+          |       
+          li.nav-item
+            a.nav-link(href='/promotions') Promotions
+
+
+    .container
+      h2 Dishes
+      p
+        | The details of the dishes in Accenture restaurant
+      .table-responsive
+        table.table
+          thead
+            tr
+              th Name
+              |         
+              th Category
+              |         
+              th Label
+              |         
+              th Price
+              |         
+              th Description
+          |     
+          tbody
+            for dish in dishes            
+                tr
+                    td=dish.name
+                    td=dish.category
+                    td=dish.label
+                    td=dish.price
+                    td=dish.description 
+                     
