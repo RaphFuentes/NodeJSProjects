@@ -1,0 +1,20 @@
+{
+  "name": "mongo-exercise02",
+  "version": "1.0.0",
+  "description": "Exercise solutions",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Susithra Chandrabose",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.0.2",
+    "express": "^4.15.3",
+    "mocha": "^3.4.2",
+    "mongoose": "^4.10.8",
+    "mongoose-currency": "^0.2.0",
+    "rewire": "^2.5.2",
+    "sinon": "^2.3.5"
+  }
+}

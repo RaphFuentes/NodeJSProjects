@@ -1,5 +1,9 @@
 module.exports= function(x,y,callback){
-    console.log("value of x and y ", x, y)
+    console.log("This is a console in rectangle")
+    console.time();
+    console.time();
+    console.time();
+    console.time();
     try{
         if(x < 0 || y < 0){
             throw new Error("Length and width cannot be negative");
